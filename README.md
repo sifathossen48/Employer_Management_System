@@ -47,11 +47,11 @@ pip install -r requirements.txt
 ```
 ### Apply migrations:
 ```bash
-pip install -r requirements.txt
+python manage.py migrate
 ```
 ### Run the development server:
 ```bash
-pip install -r requirements.txt
+python manage.py runserver
 ```
 
 ## API Endpoints
